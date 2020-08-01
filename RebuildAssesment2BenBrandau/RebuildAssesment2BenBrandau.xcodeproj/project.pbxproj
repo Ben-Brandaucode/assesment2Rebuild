@@ -58,16 +58,64 @@
 		BF91572624D5064E00807968 /* RebuildAssesment2BenBrandau */ = {
 			isa = PBXGroup;
 			children = (
+				BF91574024D5083800807968 /* controllers */,
+				BF91573F24D5082B00807968 /* Model */,
+				BF91573E24D507F400807968 /* resources */,
+				BF91572D24D5064E00807968 /* Main.storyboard */,
+				BF91573524D5065100807968 /* LaunchScreen.storyboard */,
+			);
+			path = RebuildAssesment2BenBrandau;
+			sourceTree = "<group>";
+		};
+		BF91573E24D507F400807968 /* resources */ = {
+			isa = PBXGroup;
+			children = (
 				BF91572724D5064E00807968 /* AppDelegate.swift */,
 				BF91572924D5064E00807968 /* SceneDelegate.swift */,
 				BF91572B24D5064E00807968 /* ViewController.swift */,
-				BF91572D24D5064E00807968 /* Main.storyboard */,
 				BF91573324D5065100807968 /* Assets.xcassets */,
-				BF91573524D5065100807968 /* LaunchScreen.storyboard */,
 				BF91573824D5065100807968 /* Info.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		BF91573F24D5082B00807968 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				BF91573024D5064E00807968 /* RebuildAssesment2BenBrandau.xcdatamodeld */,
 			);
-			path = RebuildAssesment2BenBrandau;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF91574024D5083800807968 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF91574224D5085600807968 /* model Controllers */,
+				BF91574124D5084A00807968 /* view Controllers */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		BF91574124D5084A00807968 /* view Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF91574324D5086B00807968 /* custom Cells */,
+			);
+			path = "view Controllers";
+			sourceTree = "<group>";
+		};
+		BF91574224D5085600807968 /* model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "model Controllers";
+			sourceTree = "<group>";
+		};
+		BF91574324D5086B00807968 /* custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "custom Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73V52F7L32;
-				INFOPLIST_FILE = RebuildAssesment2BenBrandau/Info.plist;
+				INFOPLIST_FILE = RebuildAssesment2BenBrandau/resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73V52F7L32;
-				INFOPLIST_FILE = RebuildAssesment2BenBrandau/Info.plist;
+				INFOPLIST_FILE = RebuildAssesment2BenBrandau/resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
